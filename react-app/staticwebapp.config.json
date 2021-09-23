@@ -3,6 +3,10 @@
     {
       "route": "/api/products/*",
       "allowedRoles": ["authenticated"]
+
+
+
+      
     },
     {
       "route": "/.auth/login/aad",
@@ -13,6 +17,8 @@
       "methods": ["PUT", "POST", "DELETE"],
       "allowedRoles": ["authenticated"]
     }],
+
+    
   "navigationFallback": {
       "rewrite": "/index.html",
       "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}"]
